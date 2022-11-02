@@ -1,0 +1,80 @@
+ @media only screen and (max-width: 398px) { 
+    header nav .burger {
+        display: block;
+    }
+    header nav ul {
+        display: none;
+    }
+    html {
+        font-size: 5px;
+    }
+    header .background a.button {
+        width: 75px;
+        height: 20px;
+        padding: 7px 10px;
+    } 
+    .container {
+        width: 100%;
+    }
+    header nav {
+        width: 75px;
+    }
+    .background {
+        background-position: -250px;
+    }
+    header .background {
+        border-bottom: none;
+    }
+    header .background .content { 
+        padding: 80px 0 100px;
+        transform: translateX(50px);
+    }
+
+    .main section .articles {
+        grid-template-columns: 1fr; 
+    } 
+    .main section  .articles article { 
+        margin: 0 15px;
+    }
+    .main section .heading {
+        margin-left: 4px;
+    }
+    .main .three {
+        display: none;
+    } 
+    .main .four form {
+        width: 100%;
+    }
+    .main section {
+        margin-top: 35px;
+    }
+    header .background p {
+        font-size: 8rem;
+    }
+    footer nav {
+        display: none;
+    }
+    footer p {
+        margin: 0;
+        padding-top: 0;
+    }
+    footer span.extra {
+        display: none; 
+    } 
+    footer {
+        padding: 50px 0 60px 15px;
+    }
+    .main .four form button {
+        margin-right: 28px;
+    }
+    .main section .heading {
+        margin-bottom: 40px;
+    } 
+    .main .two .button {
+        width: 44px;
+        height: 44px;
+        border-radius: 22px;
+    } 
+}
+
+
